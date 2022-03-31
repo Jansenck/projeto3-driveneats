@@ -1,0 +1,37 @@
+body{
+    background-color: #e5e5e5;
+
+    /* font-family: 'Righteous', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 90px;
+    width: 100%;
+    background-color:#CF2B2B;
+}
+header h1{
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    color: #ffffff;
+}
+header h3{
+    font-size: 18px;
+    color: #ffffff;
+}
+.food-options{
+    display: flex;
+    flex-direction: row;
+}
+.food-option{
+    height: 215px;
+    width: 172px;
+
+    background-color: #ffffff;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+}
+.food-option img {
+    height: 87px;
+    width: 144px;
+    border-radius: 4px;
+}
