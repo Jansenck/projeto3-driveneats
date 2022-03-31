@@ -5,33 +5,115 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 header{
-    height: 90px;
+    height: 92px;
     width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     background-color:#CF2B2B;
 }
 header h1{
     font-family: 'Righteous', cursive;
     font-size: 44px;
+    font-weight:400;
     color: #ffffff;
 }
 header h3{
     font-size: 18px;
     color: #ffffff;
+    font-weight:400;
+}
+section h2{
+    font-family: 'Righteous', cursive;
+    font-size:26px;
+    font-weight:400;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    margin-left: 20px;
 }
 .food-options{
+    width: 100%;
     display: flex;
     flex-direction: row;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 .food-option{
     height: 215px;
     width: 172px;
 
+    border: 5px solid #ffffff;
+    padding: 10px 9px;
+    box-sizing: border-box;
+    margin-right: 15px;
+
     background-color: #ffffff;
     border-radius: 9px;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .food-option img {
     height: 87px;
     width: 144px;
     border-radius: 4px;
+}
+.food-option .food-info{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow:hidden;
+}
+.food-info h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+.food-info p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #a6a6a6;
+}
+.food-info p:nth-child(3){
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+.food-option ion-icon{
+    position: absolute;
+    right: 6px;
+    bottom: 9px;
+    color: #24ac7d;
+}
+main{
+    padding-bottom: 120px;
+}
+.bottom-bar{
+    height: 90px;
+    width: 100%;
+    background-color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+.bottom-bar button{
+    height: 60px;
+    width: 90%;
+    border-radius: 50px;
+    border-style: none;
+    color: #cbcbcb;
+
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
 }
