@@ -20,113 +20,141 @@
             <main>
                 <section class="food">
                     <h2>Primeiro, seu prato</h2>
-                    <div class="food-options">
-                        <div class="food-option">
-                            <img src="images/hawaiian-pizza.jpg" alt="">
-                            <div class="food-info">
-                                <h3>Nome do prato</h3>
-                                <p>Descrição uahdkahsdkhkahskdhaksdhk hkhakhdkhaksd</p>
-                                <p>Preço</p>
+                    <div class="food-options" id="food-options">
+                        <div class="food-option" onclick="selectedFoodOption(this)">
+                            <div class="option-contents">
+                                <img src="images/hawaiian-pizza.jpg" alt="">
+                                <div class="food-info">
+                                    <h3 id="food-name">Pizza</h3>
+                                    <p>Mussarela, calabresa e oregano</p>
+                                    <R1>R$48,50</R1>
+                                </div>
+                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
                             </div>
-                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
                         </div>
-                        <div class="food-option">
-                            <img src="images/hawaiian-pizza.jpg" alt="">
-                            <div class="food-info">
-                                <h3>Nome do prato</h3>
-                                <p>Descrição uahdkahsdkhkahskdhaksdhk hkhakhdkhaksd</p>
-                                <p>Preço</p>
+                        <div class="food-option" onclick="selectedFoodOption(this)">
+                            <div class="option-contents">
+                                <img src="images/feijoada.jpg" alt="">
+                                <div class="food-info">
+                                    <h3 id="food-name">Feijoada</h3>
+                                    <p>Feijão preto, bacon, calabresa</p>
+                                    <R1>R$129,50</R1>
+                                </div>
+                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
                             </div>
-                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
                         </div>
-                        <div class="food-option">
-                            <img src="images/hawaiian-pizza.jpg" alt="">
-                            <div class="food-info">
-                                <h3>Nome do prato</h3>
-                                <p>Descrição uahdkahsdkhkahskdhaksdhk hkhakhdkhaksd</p>
-                                <p>Preço</p>
+                        <div class="food-option" onclick="selectedFoodOption(this)">
+                            <div class="option-contents">
+                                <img src="images/lasanha.jpg" alt="">
+                                <div class="food-info">
+                                    <h3 id="food-name">Lasanha</h3>
+                                    <p>Mussarela, Carne moída, Presunto e cream cheese</p>
+                                    <R1>R$140,90</R1>
+                                </div>
+                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
                             </div>
-                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
-                        </div>
-                    </div>
-                    
-                </section>
-                <section class="food">
-                    <h2>Primeiro, seu prato</h2>
-                    <div class="food-options">
-                        <div class="food-option">
-                            <img src="images/hawaiian-pizza.jpg" alt="">
-                            <div class="food-info">
-                                <h3>Nome do prato</h3>
-                                <p>Descrição uahdkahsdkhkahskdhaksdhk hkhakhdkhaksd</p>
-                                <p>Preço</p>
-                            </div>
-                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
-                        </div>
-                        <div class="food-option">
-                            <img src="images/hawaiian-pizza.jpg" alt="">
-                            <div class="food-info">
-                                <h3>Nome do prato</h3>
-                                <p>Descrição uahdkahsdkhkahskdhaksdhk hkhakhdkhaksd</p>
-                                <p>Preço</p>
-                            </div>
-                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
-                        </div>
-                        <div class="food-option">
-                            <img src="images/hawaiian-pizza.jpg" alt="">
-                            <div class="food-info">
-                                <h3>Nome do prato</h3>
-                                <p>Descrição uahdkahsdkhkahskdhaksdhk hkhakhdkhaksd</p>
-                                <p>Preço</p>
-                            </div>
-                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
                         </div>
                     </div>
                     
                 </section>
-                <section class="food">
+                <section class="drink">
                     <h2>Primeiro, seu prato</h2>
                     <div class="food-options">
-                        <div class="food-option">
-                            <img src="images/hawaiian-pizza.jpg" alt="">
-                            <div class="food-info">
-                                <h3>Nome do prato</h3>
-                                <p>Descrição uahdkahsdkhkahskdhaksdhk hkhakhdkhaksd</p>
-                                <p>Preço</p>
+                        <div class="food-option" onclick="selectedDrinkOption(this)">
+                            <div class="option-contents">
+                                <img src="images/strawberry-juice.jpg" alt="">
+                                <div class="food-info">
+                                    <h3>Suco de Morango</h3>
+                                    <p>Suco de morango ao leite</p>
+                                    <R1>R$18,30</R1>
+                                </div>
+                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
                             </div>
-                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
                         </div>
-                        <div class="food-option">
-                            <img src="images/hawaiian-pizza.jpg" alt="">
-                            <div class="food-info">
-                                <h3>Nome do prato</h3>
-                                <p>Descrição uahdkahsdkhkahskdhaksdhk hkhakhdkhaksd</p>
-                                <p>Preço</p>
+                        <div class="food-option" onclick="selectedDrinkOption(this)">
+                            <div class="option-contents">
+                                <img src="images/orange-juice.jpg" alt="">
+                                <div class="food-info">
+                                    <h3>Suco de Laranja</h3>
+                                    <p>Suco Natural de laranja</p>
+                                    <R1>R$12,50</R1>
+                                </div>
+                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
                             </div>
-                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
                         </div>
-                        <div class="food-option">
-                            <img src="images/hawaiian-pizza.jpg" alt="">
-                            <div class="food-info">
-                                <h3>Nome do prato</h3>
-                                <p>Descrição uahdkahsdkhkahskdhaksdhk hkhakhdkhaksd</p>
-                                <p>Preço</p>
+                        <div class="food-option" onclick="selectedDrinkOption(this)">
+                            <div class="option-contents">
+                                <img src="images/soda.jpg" alt="">
+                                <div class="food-info">
+                                    <h3>Refrigerante</h3>
+                                    <p>350mL</p>
+                                    <R1>R$48,50</R1>
+                                </div>
+                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
                             </div>
-                            <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                        </div>
+                    </div>
+                    
+                </section>
+                <section class="dessert">
+                    <h2>Primeiro, seu prato</h2>
+                    <div class="food-options">
+                        <div class="food-option" onclick="selectedDessertOption(this)">
+                            <div class="option-contents">
+                                <img src="images/torta-chocolate.jpg" alt="">
+                                <div class="food-info">
+                                    <h3>Torta Chocolate</h3>
+                                    <p>Chocolate meio amargo fatia 251g</p>
+                                    <R1>R$18,50</R1>
+                                </div>
+                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="food-option" onclick="selectedDessertOption(this)">
+                            <div class="option-contents">
+                                <img src="images/pudim.jpg" alt="">
+                                <div class="food-info">
+                                    <h3>Pudim</h3>
+                                    <p>Pudim de Leite</p>
+                                    <R1>R$10,10</R1>
+                                </div>
+                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="food-option" onclick="selectedDessertOption(this)">
+                            <div class="option-contents">
+                                <img src="images/coxinha.jpg" alt="">
+                                <div class="food-info">
+                                    <h3>Coxinha</h3>
+                                    <p>Coxinha doce ou salgada</p>
+                                    <R1>R$4,90</R1>
+                                </div>
+                                <ion-icon name="checkmark-circle-sharp"></ion-icon>
+                            </div>
                         </div>
                     </div>               
                 </section>
     
             </main>
             <div class="bottom-bar">
-                <button>
+                <button id="order" onclick="screenConfirmOrder(this)">
                     <p>Selecione os 3 itens
                         para fechar o pedido</p>
                 </button>
             </div>
         </div>
+        <div class="background-confirm-order" id="background-confirm-order">
+            <div class="infos-to-confirm-order">
+                <p>Confirme o seu pedido</p>
+                <div class="infos-order" id="infos-order">
+                       
+                </div>
+                <button class="button-confirm-order" onclick="confirmOrder(this)">Tudo certo, pode pedir!</button>
+                <button class="button-cancel-order" onclick="cancelOrder(this)">Cancelar</button>
+            </div>
+        </div>
 
-        <link rel="stylesheet" href="script.js">
+        <script src="script.js"></script>
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     </body>
 </html>
