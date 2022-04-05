@@ -123,15 +123,10 @@ function screenConfirmOrder(){
 }
 function confirmOrder(){
 
-  let message = `Olá, gostaria de fazer o pedido:
-  - Prato: ${infosFoodSelected[0]}
-  - Bebida: ${infosDrinkSelected[0]}
-  - Sobremesa: ${infosDessertSelected[0]}
-  Total: R$ ${valueTotal}`;
+  let message = `Olá, gostaria de fazer o pedido:\n-Prato: ${infosFoodSelected[0]}\n-Bebida: ${infosDrinkSelected[0]}\n-Sobremesa: ${infosDessertSelected[0]}\nTotal: R$ ${valueTotal.toFixed(2)}`;
 
-  let messageInfos = encodeURIComponent(message);
 
-  window.open(`https://wa.me/númerodetelefonenowhatsapp?text=${messageInfos}`);
+  window.open(`https://wa.me/5527995631256?text=${encodeURIComponent(message)}`);
   
 }
 function cancelOrder(){
