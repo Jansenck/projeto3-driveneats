@@ -98,15 +98,15 @@ function screenConfirmOrder(){
   let sendElementOrder = document.querySelector(".infos-order");
   sendElementOrder.innerHTML = `
     <div class="order-form">
-      <p> R$ ${infosFoodSelected[0]}</p>
+      <p> ${infosFoodSelected[0]}</p>
       <p> R$ ${infosFoodSelected[1]}</p>
     </div>
     <div class="order-form">
-      <p> R$ ${infosDrinkSelected[0]}</p>
+      <p> ${infosDrinkSelected[0]}</p>
       <p> R$ ${infosDrinkSelected[1]}</p>
     </div>
     <div class="order-form">
-      <p> R$ ${infosDessertSelected[0]}</p>
+      <p> ${infosDessertSelected[0]}</p>
       <p> R$ ${infosDessertSelected[1]}</p>
     </div>
     <div class="order-form">
@@ -135,15 +135,15 @@ function cancelOrder(){
   
   sendElementOrder.innerHTML.replace = `
     <div class="order-form">
-      <p> R$ ${infosFoodSelected[0]}</p>
+      <p> ${infosFoodSelected[0]}</p>
       <p> R$ ${infosFoodSelected[1]}</p>
     </div>
     <div class="order-form">
-      <p> R$ ${infosDrinkSelected[0]}</p>
+      <p> ${infosDrinkSelected[0]}</p>
       <p> R$ ${infosDrinkSelected[1]}</p>
     </div>
     <div class="order-form">
-      <p> R$ ${infosDessertSelected[0]}</p>
+      <p> ${infosDessertSelected[0]}</p>
       <p> R$ ${infosDessertSelected[1]}</p>
     </div>
     <div class="order-form">
